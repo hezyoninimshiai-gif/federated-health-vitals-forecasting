@@ -1,1 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Datasets
+data/raw/
+data/processed/
+*.csv
+*.csv.gz
+*.parquet
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large experiment files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Logs
+*.log
+
+# Results generated locally
+results/generated/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
